@@ -7,4 +7,8 @@ Hi friends :) My name is Elijah Journey Fullerton, I am a rising Senior at Colum
 On the weekends my girlfriend usually forces me to leave my little STEM-Gremlin cave of an apartment to do "fun things." We are living in Philadelphia this summer (highly recommend) so we like to explore the city. So far we've gone kayaking, hiking, visited museums, and appreciated ~historical sites~.
 
 In more ideal situations, namely non-pandemic situations, I love to travel. My favorite city is Beijing (我的朋友们对我开玩笑因为我有北京口音，但是北京人觉得我说的很棒) and my least favorit country to visit is Poland (Seriously, don't go. Food is bad, weather is bad, history is sad.) I'm excited to work with all of you on this project and have high hopes that our end product(s) will be very professional quality!
+
+What's up guys my name is Mohammed Sameer-Uddin but everybody just calls me Sameer. I am currently a rising senior studying Computer Science at Lehman College while being apart of the Macaulay Honors Program. Some of my favorite hobbies currently include playing basketball, watching UFC, and playing Valorant. 
+
+I am super stoked to be a part of this data science program because of how intriguing the projects are and how phenomenal the staff and mentors have been thus far. Really looking forward to learn a lot in the next couple of months and hopefully the skills I develop will give me a solid foundation to succeed in anything I choose to do in the future.
 -----
