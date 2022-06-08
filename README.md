@@ -8,5 +8,14 @@ On the weekends my girlfriend usually forces me to leave my little STEM-Gremlin 
 
 In more ideal situations, namely non-pandemic situations, I love to travel. My favorite city is Beijing (我的朋友们对我开玩笑因为我有北京口音，但是北京人觉得我说的很棒) and my least favorit country to visit is Poland (Seriously, don't go. Food is bad, weather is bad, history is sad.) I'm excited to work with all of you on this project and have high hopes that our end product(s) will be very professional quality!
 
+-----
+
 My name is Darian. I'm a rising junior at Columbia College, majoring in financial economics and concentrating in statistics. When I have time, I enjoy watching movies. Two of my all time favorites are Eternal Sunshine of the Spotless Mind (2004) and Afterlife (1997). Personally, I don't have much of a coding background, so I'm excited to develop new skills and learn from everyone. I've been slowly working on my own video game. 
+
+-----
+
+What's up guys my name is Mohammed Sameer-Uddin but everybody just calls me Sameer. I am currently a rising senior studying Computer Science at Lehman College while being apart of the Macaulay Honors Program. Some of my favorite hobbies currently include playing basketball, watching UFC, and playing Valorant. 
+
+I am super stoked to be a part of this data science program because of how intriguing the projects are and how phenomenal the staff and mentors have been thus far. Really looking forward to learn a lot in the next couple of months and hopefully the skills I develop will give me a solid foundation to succeed in anything I choose to do in the future.
+
 -----
