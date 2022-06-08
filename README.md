@@ -1,6 +1,6 @@
 # PIT-DSC-Zero-Waste
  
-# <\hl> Team Bios <\h>
+# <\h1> Team Bios <\h1>
 -----
 Hi friends :) My name is Elijah Journey Fullerton, I am a rising Senior at Columbia studying Information Science and Intelligent Systems. I spend most of my time studying since I'm a total square []. Nowadays I mostly study Chinese (I take four hour classes through Tsinghua University every weeknight + at least 2 hours of homework on a good day), Machine Learning because its super fun and cool, Algorithm Analysis because math is cool (even though its very painful), and Leetcode because who doesn't need to Leetcode?
 
@@ -8,7 +8,10 @@ On the weekends my girlfriend usually forces me to leave my little STEM-Gremlin 
 
 In more ideal situations, namely non-pandemic situations, I love to travel. My favorite city is Beijing (我的朋友们对我开玩笑因为我有北京口音，但是北京人觉得我说的很棒) and my least favorit country to visit is Poland (Seriously, don't go. Food is bad, weather is bad, history is sad.) I'm excited to work with all of you on this project and have high hopes that our end product(s) will be very professional quality!
 
+-----
+
 What's up guys my name is Mohammed Sameer-Uddin but everybody just calls me Sameer. I am currently a rising senior studying Computer Science at Lehman College while being apart of the Macaulay Honors Program. Some of my favorite hobbies currently include playing basketball, watching UFC, and playing Valorant. 
 
 I am super stoked to be a part of this data science program because of how intriguing the projects are and how phenomenal the staff and mentors have been thus far. Really looking forward to learn a lot in the next couple of months and hopefully the skills I develop will give me a solid foundation to succeed in anything I choose to do in the future.
+
 -----
