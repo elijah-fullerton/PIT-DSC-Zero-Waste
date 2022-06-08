@@ -19,3 +19,5 @@ What's up guys my name is Mohammed Sameer-Uddin but everybody just calls me Same
 I am super stoked to be a part of this data science program because of how intriguing the projects are and how phenomenal the staff and mentors have been thus far. Really looking forward to learn a lot in the next couple of months and hopefully the skills I develop will give me a solid foundation to succeed in anything I choose to do in the future.
 
 -----
+
+Hello Team, my name is Mario. I’m a rising senior at Lehman College, majoring in Computer Science. Apart from being a student I like going to the gym and reading books. The book I’m currently reading right now is Ali: A Life which is an interesting read and something I am learning from. I’m coming from a good programming background in Python but through this internship I’m interested in learning SQL, R and other tools to further my data science skills.
