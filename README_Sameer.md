@@ -1,0 +1,3 @@
+What's up guys my name is Mohammed Sameer-Uddin but everybody just calls me Sameer. I am currently a rising senior studying Computer Science at Lehman College while being apart of the Macaulay Honors Program. Some of my favorite hobbies currently include playing basketball, watching UFC, and playing Valorant. 
+
+I am super stoked to be a part of this data science program because of how intriguing the projects are and how phenomenal the staff and mentors have been thus far. Really looking forward to learn a lot in the next couple of months and hopefully the skills I develop will give me a solid foundation to succeed in anything I choose to do in the future.
