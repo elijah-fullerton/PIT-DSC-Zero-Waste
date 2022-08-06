@@ -18,7 +18,7 @@ import os
 #print(os.listdir(os.getcwd()))
 
 #Open Current Division
-df = pd.read_excel('CTC - NYC HA, GC - Owner_Part1.xlsx')
+df = pd.read_excel('CTC - NYC HA, GC - Owner_Part3.xlsx')
 #print(df)
 
 #Convert to CSV
@@ -28,7 +28,7 @@ df = pd.read_csv('temp.csv')
 #print(str(df.loc[0][0]))
 
 #Initialization
-idx = 1000000
+idx = 3000000
 unit = None
 lineItem = None
 data=[]
@@ -41,6 +41,19 @@ units_set.add('SY')
 square_set=set()
 square_set.add('SF')
 square_set.add('SY')
+#Creatunits_set=set()
+num_set=set()
+num_set.add('0')
+num_set.add('1')
+num_set.add('2')
+num_set.add('3')
+num_set.add('4')
+num_set.add('5')
+num_set.add('6')
+num_set.add('7')
+num_set.add('8')
+num_set.add('9')
+num_set.add('.')
 #Create Materials Set
 materials_df = pd.read_excel('JOC_Div_Materials.xlsx')
 materials_set = set()
@@ -92,30 +105,52 @@ for row in range(len(df.index)):
                                             weightColumn=col
                                             if unit in square_set:
                                                 depth=0
+                                                whole=0
                                                 if '"' in lineItem:
-                                                    if '/' in lineItem:
+#Set line items such as '24" x 48", Perforated, Painted Aluminum, Acoustical 
+#Lay-In Metal Ceiling Panel (USG Panz™)' to a default depth of 1
+                                                    if ' x ' in lineItem:
+                                                        depth=1
+                                                    elif '/' in lineItem:
+ #What we are trying to do in the following lines is pick up depth values 
+ #formatted as #-#/#, while also avoiding issues when words are written as
+ #word-word.
+                                                        if '-' in lineItem:
+                                                            try:
+                                                                whole=int(lineItem[lineItem.index('-')-1])
+                                                            except:
+                                                                continue
                                                         try:
                                                             num=int(lineItem[lineItem.index('/')-1])
                                                             dem=int(lineItem[lineItem.index('/')+1])
-                                                            depth=float(num/dem)
+                                                            depth=whole+float(num/dem)
                                                         except:
-                                                            try:
-                                                                if int(lineItem[lineItem.index('"')-2]) in range(11):
-                                                                    depth=10*int(lineItem[lineItem.index('"')-2])+int(lineItem[lineItem.index('"')-1])
-                                                            except:
-                                                                try:
-                                                                    depth=int(lineItem[lineItem.index('"')-1])
-                                                                except:
-                                                                    continue
-                                                    else:
-                                                        try:
-                                                            if int(lineItem[lineItem.index('"')-2]) in range(11):
-                                                                depth=10*int(lineItem[lineItem.index('"')-2])+int(lineItem[lineItem.index('"')-1])
-                                                        except:
-                                                            try:
-                                                                depth=int(lineItem[lineItem.index('"')-1])
+                                                            left = lineItem.index('"')-1
+                                                            right = left
+                                                            while left>0 and lineItem[left-1] in num_set:
+                                                                left-=1
+                                                            try: 
+                                                                depth=float(lineItem[left:right+1])
                                                             except:
                                                                 continue
+                                                    else:
+                                                        left = lineItem.index('"')-1
+                                                        right = left
+                                                        while left>0 and lineItem[left-1] in num_set:
+                                                            left-=1
+                                                        try: 
+                                                            depth=float(lineItem[left:right+1])
+                                                        except:
+                                                            continue
+                                                        #Discarded
+                                                        #try:
+                                                        #    if int(lineItem[lineItem.index('"')-2]) in range(11):
+                                                        #        depth=10*int(lineItem[lineItem.index('"')-2])+int(lineItem[lineItem.index('"')-1])
+                                                        #except:
+                                                        #    try:
+                                                        #        depth=int(lineItem[lineItem.index('"')-1])
+                                                        #    except:
+                                                        #        continue
                             if weightColumn != None and weightRow != None:
                                 weight = weights_df.loc[weightRow][weightColumn]
                                 if unit in square_set:
